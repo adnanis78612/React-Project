@@ -33,19 +33,21 @@ export default function SearchBox({updateInfo}) {
 
     let handleChange=(evt)=>{
         setCity(evt.target.value);
+        setError(false); 
     };
 
     let handleSubmit=async (evt)=>{
         try {
-             evt.preventDefault();
-        console.log(city);
-        setCity("");
-        let newInfo=await getWeatherInfo();
-        updateInfo(newInfo);
+            evt.preventDefault();
+            console.log(city);
+            let newInfo=await getWeatherInfo();
+            updateInfo(newInfo);
+            setError(false);   // ✅ reset error on success
+            setCity("");
         } catch(err) {
             setError(true);
+            setCity("");
         }
-       
     };
 
     return (
