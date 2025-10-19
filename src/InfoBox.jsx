@@ -11,7 +11,7 @@ import SunnyIcon from '@mui/icons-material/Sunny';
 export default function InfoBox({info}) {
     const INIT_URL="https://images.unsplash.com/photo-1680352267694-a7fd4c33d4e1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2340";
 
-    const HOT_URL="https://images.unsplash.com/photo-1561647784-2f9c43b07a0b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2340";
+    const HOT_URL="https://images.unsplash.com/photo-1419833173245-f59e1b93f9ee?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2340";
     const COLD_URL="https://plus.unsplash.com/premium_photo-1670604649107-a0171e5f1bd0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2340";
     const RAIN_URL="https://images.unsplash.com/photo-1438449805896-28a666819a20?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2340";
     
