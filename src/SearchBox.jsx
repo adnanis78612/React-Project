@@ -27,6 +27,7 @@ export default function SearchBox({updateInfo}) {
         } catch(err) {
             throw err;
         }
+    }
         
     };
     
